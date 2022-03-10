@@ -1,7 +1,13 @@
-// Your First Program
+public class AddIntegers {
 
-class AddIntergers {
     public static void main(String[] args) {
-        System.out.println("Hello, Professor!!"); 
+
+        int first = 15;
+        int second = 25;
+
+        System.out.println("Enter two numbers: " + first + " " + second);
+        int sum = first + second;
+
+        System.out.println("The sum is: " + sum);
     }
 }
